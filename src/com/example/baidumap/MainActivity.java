@@ -49,7 +49,6 @@ public class MainActivity extends Activity {
 			navigateTo(location);
 		locationManager.requestLocationUpdates(provider, 5000, 1,
 				locationListener);
-		Log.d("123","success");
 	}
 
 	LocationListener locationListener = new LocationListener() {
